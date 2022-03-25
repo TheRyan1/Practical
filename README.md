@@ -15,8 +15,13 @@ In this assignment you will create a fullstack ToDo application using the follow
 
 ## Instructions : 
 
-Clone a copy of the project template
+Clone a copy of the project template 
 ```
-git clone 
+git clone https://github.com/TheRyan1/Practical.git
+
+```
+Create a branch for yourself 
+```
+git checkout -b myname
 
 ```
