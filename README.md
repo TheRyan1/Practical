@@ -110,7 +110,7 @@ const SubmitData = async()=>{
 3) Make use of useEffect hook to load all ToDo items when navigating to the HomePage
 
 
-## Bonus Points :
+## Cool extras :
 * Implement a database
 * Implement JWToken for authentiction
 * Implement A Register feature
