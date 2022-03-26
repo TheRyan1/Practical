@@ -20,11 +20,11 @@ In this task you will create a fullstack ToDo application using the following te
 ```
 git clone 'your forked repository link'
 ```
-3. Install react base dependencies
+3. Install react base dependencies while you are in the root directorty
  ```
 npm run client-install
  ```
-4. Install server base dependencies
+4. Install server base dependencies while you are in the root directorty
  ```
 npm install
  ```
