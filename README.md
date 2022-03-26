@@ -13,7 +13,7 @@ In this assignment you will create a fullstack ToDo application using the follow
 #### Use this array when adding / removing ToDos.
 
 
-## Instructions : 
+## Installation Instructions : 
 1. Create a fork by logging into github and then clicking fork on the top right corner of the https://github.com/TheRyan1/Practical page.
 
 2. Clone a copy of the project template 
@@ -31,13 +31,13 @@ npm install
 ### Folder Structure:
 ```
 root - /practical
-   |-- index.js
-   |-- node_modules (for server)
-   |-- package.json (for server)
-   |-- client root /practical/client
-       |-- src
-       |-- public
-       |-- node_modules
+ |-- index.js
+ |-- node_modules (for server)
+ |-- package.json (for server)
+ |-- client root /practical/client
+     |-- src
+     |-- public
+     |-- node_modules
 ```
            
 ### Express Server Dependency List > Make sure you are in the server root
@@ -78,5 +78,36 @@ const SubmitData = async()=>{
  return data
 }
 ```
- 
+
+## Server Checklist : 
+
+* Install express
+* Create a new express application
+* Implement CORS middleware
+* Create routes
+  * Get All ToDo list items (GET)
+  * Delete ToDo list item (DELETE)
+  * Create ToDo list item (POST)
+  * Update ToDo list item (GET with route parameter)
+
+## React Front end Checklist : 
+
+* Create components (Components)
+  * HomePage.jsx (View All ToDos)
+  * CreatePage.jsx (Create ToDo)
+  * EditPage.jsx (Edit ToDo)
+  * DeletePage.jsx (Delete ToDo) 
+  * NavBar.jsx
+  * Footer.jsx
+* Create routing with react-router-dom
+* Interact with backend API using Axios
+
+### React Tips:
+
+1) Make use of the useLocation Hook to pass data when navigating to the delete and update pages
+2) Make use of the useState hook to manage the state of each component
+3) Make use of useEffect hook to load all ToDo items when opening the app
+
+
+
 
