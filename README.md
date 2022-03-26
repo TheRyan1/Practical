@@ -101,12 +101,13 @@ const SubmitData = async()=>{
   * Footer.jsx
 * Create routing with react-router-dom
 * Interact with backend API using Axios
+* Implement styling of your choice. CSS / MUI / Bootstrap
 
 ### React Tips:
 
 1) Make use of the useLocation Hook to pass data when navigating to the delete and update pages
 2) Make use of the useState hook to manage the state of each component
-3) Make use of useEffect hook to load all ToDo items when opening the app
+3) Make use of useEffect hook to load all ToDo items when navigating to the HomePage
 
 
 
