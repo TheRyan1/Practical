@@ -1,7 +1,7 @@
 # ToDo Tracker
 
 ## About : 
-In this task you will create a fullstack ToDo application using the following technologies
+In this project you will create a fullstack ToDo application using the following technologies
 
 - NodeJS
 - ExpressJS
