@@ -1,7 +1,7 @@
-# Web Programming 1 Assessment
+# ToDo Tracker
 
 ## About : 
-In this assignment you will create a fullstack ToDo application using the following technologies
+In this task you will create a fullstack ToDo application using the following technologies
 
 - NodeJS
 - ExpressJS
