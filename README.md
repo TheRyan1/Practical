@@ -55,7 +55,7 @@ You can use react-query if you don't want to go through the hassle of cancelling
 npm install react-query
 ```
 ### Tips : 
-- React-Router-Dom example : https://react-hhnm7g.stackblitz.io/home
+- React-Router-Dom example : https://stackblitz.com/edit/react-hhnm7g
 - Axios example
 ```JavaScript
 //Get Request
